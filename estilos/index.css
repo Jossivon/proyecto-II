@@ -1,0 +1,90 @@
+/*mostrar*/
+#text-aiking{
+  color: #97c93e !important;
+}
+
+#contenido{
+  text-align: center;
+  padding: 50px;
+}
+/*mostrar*/
+
+
+/*-----------------------ACCESORIOS------------------------------*/
+#logo{
+    width: 80px;
+}
+
+.btn {
+  color:white;
+   border: 3px green double;
+}
+
+.btn:hover{
+  background-color: green;
+  color:white;
+}
+
+.btn-secundary{
+  color: black;
+}
+
+
+/*---------------HEADER----------------*/
+
+#header img{
+  width: 50px;
+}
+
+
+
+/*-------------------------------------CARUSE---------------------*/
+#main .carousel-inner img{
+    max-height: 90vh; /* IDEA: es el la altura maxima del navegador */
+    object-fit: cover; /* IDEA: se realiza un zoom a la imagen */
+    filter: brightness(70%)
+}
+
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay{
+  position: absolute;/* IDEA: se expanda todo el ancho y el alto de la pantalla no se pone algo fijo */
+  top:0; /* IDEA: no tenga espacio ni arriba ni abajo */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(black, 0.5);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+/*--------------------------------------------------FOOTER-----------------------------------------------*/
+#footer .titulo{
+  font-size:25px;
+}
+
+#footer p {
+  color: white;
+}
+
+#footer img{
+  width: 230px
+}
+
+#footer{
+  background: #1461a9;
+background: -moz-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #1461a9), color-stop(47%, #110f39), color-stop(100%, #110f39));
+background: -webkit-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: -o-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: -ms-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: linear-gradient(135deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1461a9', endColorstr='#110f39', GradientType=1 );
+}
