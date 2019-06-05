@@ -157,3 +157,39 @@ body {
 .contenedor-form .formulario:nth-child(2){
   display: block;
 }
+
+
+/*---------------HEADER----------------*/
+
+.cabecera{
+  background: #1461a9;
+background: -moz-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #1461a9), color-stop(47%, #110f39), color-stop(100%, #110f39));
+background: -webkit-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: -o-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: -ms-linear-gradient(-45deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+background: linear-gradient(135deg, #1461a9 0%, #110f39 47%, #110f39 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1461a9', endColorstr='#110f39', GradientType=1 );
+}
+
+
+
+#header img{
+  width: 110px;
+  margin-left: -20px;
+  margin-top: 0px;
+  text-align: 0px;
+}
+
+#header h5{
+
+  margin-top: -55px;
+  margin-left: 80px;
+  font-size: 32px;
+
+}
+
+.container .navbar-brand img:hover{
+transition: all 1s;
+transform: rotate(360deg);
+}
