@@ -46,8 +46,8 @@ body {
 .contenedor-form {
   position: relative;
   background: rgba(0, 0, 0, .4);
-  width: 95%;
-  max-width: 400px;
+  width: 50%;
+  max-width: 30%;
   margin: 5% 60% auto;
   color: #FFFFFF;
   border-radius: 5px;
