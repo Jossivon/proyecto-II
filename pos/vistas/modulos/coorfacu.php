@@ -4,11 +4,11 @@
     <section class="content-header">
       <h1>
         INTEGRANTES
-        <small>TABLERO DE INTEGRANTES</small>
+        <small>TABLERO DE COORDINADOR DE FACULTAD</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="inicio"><i class="fa fa-dashboard"></i> INICIO</a></li>
-        <li><a href="#">INTEGRANTES</a></li>
+        <li><a href="#">COORDINADOR DE FACULTAD</a></li>
       </ol>
     </section>
 
@@ -56,119 +56,6 @@
                   </td>
                 </tr>
               </tbody>
-            </table>
-          </div> 
-
-
-         <div class="box-body">
-            <table class="table table-bordered table-striped dt-responsive tablas">
-              <caption>COORDINADORES DE CARRERA</caption>
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col">Cedula</th>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Apellido</th>
-                  <th scope="col">Correo</th>
-                  <th scope="col">Telefono</th>
-                  <th scope="col">Carga Horario</th>
-                  <th scope="col">Cargo</th>
-                  <th scope="col">Acciones</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <th scope="row">1723117691</th>
-                  <td>Ivonne</td>
-                  <td>Barahona</td>
-                  <td>@mdo</td>
-                  <td>0996685513</td>
-                  <td>8</td>
-                  <td>Coordinador</td>
-                  <td>
-                    <div class="btn-group">
-                      <button class="btn-warning"> <i class="fa fa-pencil"></i></button>
-                      <button class="btn-danger"> <i class="fa fa-times"></i></button>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-
-            </table>
-          </div> 
-
-
-          <div class="box-body">
-            <table class="table table-bordered table-striped dt-responsive tablas">
-              <caption>DOCENTE</caption>
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col">Cedula</th>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Apellido</th>
-                  <th scope="col">Correo</th>
-                  <th scope="col">Telefono</th>
-                  <th scope="col">Carga Horario</th>
-                  <th scope="col">Cargo</th>
-                  <th scope="col">Acciones</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <th scope="row">1723117691</th>
-                  <td>Ivonne</td>
-                  <td>Barahona</td>
-                  <td>@mdo</td>
-                  <td>0996685513</td>
-                  <td>8</td>
-                  <td>Coordinador</td>
-                  <td>
-                    <div class="btn-group">
-                      <button class="btn-warning"> <i class="fa fa-pencil"></i></button>
-                      <button class="btn-danger"> <i class="fa fa-times"></i></button>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-
-            </table>
-          </div> 
-
-          <div class="box-body">
-            <table class="table table-bordered table-striped dt-responsive tablas">
-              <caption>ESTUDIANTE</caption>
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col">Cedula</th>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Apellido</th>
-                  <th scope="col">Correo</th>
-                  <th scope="col">Telefono</th>
-                  <th scope="col">Carga Horario</th>
-                  <th scope="col">Cargo</th>
-                  <th scope="col">Acciones</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <th scope="row">1723117691</th>
-                  <td>Ivonne</td>
-                  <td>Barahona</td>
-                  <td>@mdo</td>
-                  <td>0996685513</td>
-                  <td>8</td>
-                  <td>Coordinador</td>
-                  <td>
-                    <div class="btn-group">
-                      <button class="btn-warning"> <i class="fa fa-pencil"></i></button>
-                      <button class="btn-danger"> <i class="fa fa-times"></i></button>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-
             </table>
           </div> 
       </div>
@@ -264,11 +151,6 @@
         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
         <button type="submit" class="btn btn-primary">Agregar usuario</button>
       </div>
-
-      <?php 
-          $crearUsuario = new ControladorUsuarios();
-          $crearUsuario -> ctrCrearUsuario();
-      ?>
 
     </form>
   </div>
