@@ -2,15 +2,15 @@
 
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        INTEGRANTES
-        <small>TABLERO DE COORDINADOR DE FACULTAD</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="inicio"><i class="fa fa-dashboard"></i> INICIO</a></li>
-        <li><a href="#">COORDINADOR DE FACULTAD</a></li>
-      </ol>
-    </section>
+        <h1>
+          ACTIVIDADES
+          <small>ACTIVIDADES DEL PROYECTO</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> INICIO</a></li>
+          <li><a href="#">PROYECTOS</a></li>
+        </ol>
+      </section>
 
     <!-- Main content -->
     <section class="content">
@@ -18,36 +18,36 @@
       <div class="box">
 
           <div class="box-header with-border">
-              <button class="btn btn-info" data-toggle="modal" data-target="#modalAgregarFacu"> 
-                Agregar Integrantes
+              <button class="btn btn-info" data-toggle="modal" data-target="#modalAgregarFacu">
+                Agregar Actividades
               </button>
           </div>
 
           <div class="box-body">
             <table class="table table-bordered table-striped dt-responsive tablas ">
-              <caption>COORDINADORES DE FACULTAD</caption>
+              <caption>ACTIVIDADES</caption>
               <thead class="thead-dark">
                 <tr>
-                  <th scope="col">Cedula</th>
+                  <th scope="col">Código</th>
                   <th scope="col">Nombre</th>
-                  <th scope="col">Apellido</th>
-                  <th scope="col">Correo</th>
-                  <th scope="col">Telefono</th>
-                  <th scope="col" style="width:8px">Carga Horario</th>
-                  <th scope="col">Cargo</th>
+                  <th scope="col">Fecha Inicio</th>
+                  <th scope="col">Fecha Finalización</th>
+                  <th scope="col">Integrantes</th>
+
                   <th scope="col">Acciones</th>
                 </tr>
               </thead>
 
               <tbody>
                 <tr>
-                  <th scope="row">1723117691</th>
-                  <td>Ivonne</td>
-                  <td>Barahona</td>
-                  <td>@mdo</td>
-                  <td>0996685513</td>
-                  <td>8</td>
-                  <td>Coordinador</td>
+                  <th scope="row">1.1</th>
+                  <td>Diseñar e implementar una investigación sobre
+                     el uso de abonos verdes en la producción de quinua.</td>
+                  <td>enero 2019</td>
+                  <td>marzo 2019</td>
+                  <td>Lore Cj</td>
+
+
                   <td>
                     <div class="btn-group">
                       <button class="btn-warning"> <i class="fa fa-pencil"></i></button>
@@ -57,70 +57,64 @@
                 </tr>
               </tbody>
             </table>
-          </div> 
+          </div>
       </div>
    </section>
 </div>
 
-<!-- Modal -->
+<!-- Modal ------->
 <div class="modal fade" id="modalAgregarFacu"  role="dialog" >
   <div class="modal-dialog">
     <div class="modal-content">
-     <form  role="form method="post" enctype="multipart/form-data">
+     <form  role="form method="post " enctype= "multipart/form-data" >
        <div class="modal-header" style="background: #39CCCC; color:white">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h5 class="modal-title" style="text-align: center;">AGREGAR COORDINADOR DE FACULTAD</h5>
+          <h5 class="modal-title" style="text-align: center;">AGREGAR ACTIVIDAD</h5>
         </div>
 
       <div class="modal-body">
         <div class="box-body">
-            <!------------------- CEDULA DE INDENTIDAD ----------------------------------------->
+            <!------------------- CÓDIGO --------------------------------------->
           <div class="form-group">
               <div class="input-group">
                   <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
-                    <input type="text" class="form-control input-lg" name="cedulausuario" placeholder="Cédula" required>
+                    <input type="text" class="form-control input-lg" name="codigoactividad" placeholder="Código" required>
              </div>
              <br>
-        <!-------------------------------- NOMBRE DE USUARIO --------------------------------->
+        <!-------------------------------- NOMBRE DE ACTIVIDAD --------------------------------->
               <div class="form-group">
                 <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                      <input type="text" class="form-control input-lg" name="nombreusuario" placeholder="Nombre del integrante" required>
+                      <input type="text" class="form-control input-lg" name="nombreactividad" placeholder="Nombre de la Actividad" required>
                 </div>
               </div>
 
-              <!-------------------------------- APELLIDO DEL USUARIO --------------------------------->
+              <!-------------------------------- FEHCA INICIO--------------------------------->
               <div class="form-group">
                 <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                      <input type="text" class="form-control input-lg" name="apellidousuario" placeholder="Apellido del integrante" required>
+                      <input type="text" class="form-control input-lg" name="fechainicio" placeholder="Fecha Inicio" required>
                 </div>
               </div>
 
-              <!------------------------------------CORREO--------------------------------------------->
+              <!------------------------------------FECHA FIN--------------------------------------------->
                     <div class="form-group">
                       <div class="input-group">
                           <div class="input-group-addon"><i class="fa fa-at"></i></div>
-                            <input type="email" class="form-control input-lg" name="correousaurio" placeholder="Correo">
+                            <input type="email" class="form-control input-lg" name="fechafin" placeholder="Fecha Fin">
                       </div>
                     </div>
 
-              <!------------------------------------- TELEFONO --------------------------------------->
+              <!------------------------------------- INTEGRANTES --------------------------------------->
                     <div class="form-group">
                       <div class="input-group">
                           <div class="input-group-addon"><i class="fa fa-phone"></i></div>
-                            <input type="text" class="form-control input-lg" name="telefonousuario" placeholder="Telefono" >
+                            <input type="text" class="form-control input-lg" name="integranteactividad" placeholder="Integrante de la actividad" >
                       </div>
                     </div>
 
-                <!---------------------------------- CARGA HORARIO ------------------------------------->
-                    <div class="form-group">
-                      <div class="input-group">
-                          <div class="input-group-addon"><i class="fa fa-user-clock"></i></div>
-                            <input type="text" class="form-control input-lg" name="cargahoraria" placeholder="Carga Horaria" required>
-                      </div>
                     </div>
 
               <!----------------------------------------- CARGO ----------------------------------------->
@@ -137,19 +131,13 @@
               </div>
 
 
-             <div class="form-group">
-                <div class="panle">Subir foto   </div>
-                <input type="file" id="foto" name="nuevafoto">
-                <p class="help-block"> Peso máximo 200 MB</p>
-                <img src="vistas/img/usuarios/perfil.png" alt="">
-             </div>
-         </div>
+
        </div>
       </div>
 
       <div class="modal-footer">
         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
-        <button type="submit" class="btn btn-primary">Agregar usuario</button>
+        <button type="submit" class="btn btn-primary">Agregar Actividad</button>
       </div>
 
     </form>
