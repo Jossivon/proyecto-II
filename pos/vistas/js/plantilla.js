@@ -1,9 +1,17 @@
-//SIDEBAR MENU
-$('.sidebar-menu').tree();
+/*=============================================
+SideBar Menu
+=============================================*/
 
-//datatable
+$('.sidebar-menu').tree()
+
+/*=============================================
+Data Table
+=============================================*/
+
 $(".tablas").DataTable({
+
 	"language": {
+
 		"sProcessing":     "Procesando...",
 		"sLengthMenu":     "Mostrar _MENU_ registros",
 		"sZeroRecords":    "No se encontraron resultados",
@@ -22,10 +30,11 @@ $(".tablas").DataTable({
 		"sNext":     "Siguiente",
 		"sPrevious": "Anterior"
 		},
-
 		"oAria": {
-		"sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
-		"sSortDescending": ": Activar para ordenar la columna de manera descendente"
+			"sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+			"sSortDescending": ": Activar para ordenar la columna de manera descendente"
 		}
-    }
+
+	}
+
 });
