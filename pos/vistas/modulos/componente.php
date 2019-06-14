@@ -50,31 +50,31 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h5 class="modal-title" style="text-align: center;">AGREGAR COORDINADOR DE FACULTAD</h5>
+          <h5 class="modal-title" style="text-align: center;">AGREGAR COMPONENTE</h5>
         </div>
 
       <div class="modal-body">
         <div class="box-body">
-            <!------------------- CEDULA DE INDENTIDAD ----------------------------------------->
+            <!------------------- CODIGO DE PROYECTO ----------------------------------------->
           <div class="form-group">
               <div class="input-group">
                   <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
-                    <input type="text" class="form-control input-lg" name="cedulausuario" placeholder="Cédula" required>
+                    <input type="text" class="form-control input-lg" name="codigoproyecto" placeholder="Codigo de Proyecto" required>
              </div>
              <br>
-        <!-------------------------------- NOMBRE DE USUARIO --------------------------------->
+        <!-------------------------------- DESCRIPCION --------------------------------->
               <div class="form-group">
                 <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                      <input type="text" class="form-control input-lg" name="nombreusuario" placeholder="Nombre del integrante" required>
+                      <input type="text" class="form-control input-lg" name="descripcioncomponente" placeholder="Descripcion de componente" required>
                 </div>
               </div>
 
-              <!-------------------------------- APELLIDO DEL USUARIO --------------------------------->
+              <!-------------------------------- LINEA BASE --------------------------------->
               <div class="form-group">
                 <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                      <input type="text" class="form-control input-lg" name="apellidousuario" placeholder="Apellido del integrante" required>
+                      <input type="text" class="form-control input-lg" name="lineabasecomponente" placeholder="Linea base" required>
                 </div>
               </div>
 
