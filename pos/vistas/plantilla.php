@@ -31,8 +31,8 @@
   <!-- DataTables -->
   <link rel="stylesheet" href="vistas/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="vistas/bower_components/datatables.net-bs/css/responsive.bootstrap.min.css">
-  
-  -<!--PLUGINS DE JAVASCRIPTS-->
+
+  <!--PLUGINS DE JAVASCRIPTS-->
 
     <!-- jQuery 3 -->
     <script src="vistas/bower_components/jquery/dist/jquery.min.js"></script>
@@ -62,16 +62,16 @@
         include"modulos/cabezote.php";
         //menu
         include "modulos/menu.php";
-        
+
 
         if(isset($_GET["ruta"])){
           if($_GET["ruta"] == "inicio" ||
              $_GET["ruta"] == "coorfacu" ||
-             $_GET["ruta"] == "coorcarrera" || 
-             $_GET["ruta"] == "docente" || 
-             $_GET["ruta"] == "estudiante"|| 
-             $_GET["ruta"] == "proyecto" || 
-             $_GET["ruta"] == "componente" || 
+             $_GET["ruta"] == "coorcarrera" ||
+             $_GET["ruta"] == "docente" ||
+             $_GET["ruta"] == "estudiante"||
+             $_GET["ruta"] == "proyecto" ||
+             $_GET["ruta"] == "componente" ||
              $_GET["ruta"] == "empresa" ||
              $_GET["ruta"] == "repempresa" ||
              $_GET["ruta"] == "actividades"){
@@ -88,7 +88,7 @@
         //footer"
         include "modulos/footer.php";
         //contenido
-        
+
 
     ?>
 </div>
