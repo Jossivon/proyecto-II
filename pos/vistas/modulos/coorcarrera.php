@@ -18,7 +18,7 @@
       <div class="box">
 
           <div class="box-header with-border">
-              <button class="btn btn-info" data-toggle="modal" data-target="#modalAgregarFacu">
+              <button class="btn btn-info" data-toggle="modal" data-target="#modalAgregarCarre">
                 Agregar Integrantes
               </button>
           </div>
