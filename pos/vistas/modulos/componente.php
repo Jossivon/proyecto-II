@@ -58,14 +58,14 @@
             <!------------------- CODIGO DE PROYECTO ----------------------------------------->
           <div class="form-group">
               <div class="input-group">
-                  <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
+                  <div class="input-group-addon"><i class="fa fa-barcode"></i></div>
                     <input type="text" class="form-control input-lg" name="codigoproyecto" placeholder="Codigo de Proyecto" required>
              </div>
              <br>
         <!-------------------------------- DESCRIPCION --------------------------------->
               <div class="form-group">
                 <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <div class="input-group-addon"><i class="fa fa-prescription-bottle"></i></div>
                       <input type="text" class="form-control input-lg" name="descripcioncomponente" placeholder="Descripcion de componente" required>
                 </div>
               </div>
@@ -73,7 +73,7 @@
               <!-------------------------------- LINEA BASE --------------------------------->
               <div class="form-group">
                 <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <div class="input-group-addon"><i class="fa fa-bookmark"></i></div>
                       <input type="text" class="form-control input-lg" name="lineabasecomponente" placeholder="Linea base" required>
                 </div>
               </div>
