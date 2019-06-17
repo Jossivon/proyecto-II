@@ -4,7 +4,7 @@
     <section class="content-header">
       <h1>
         INTEGRANTES
-        <small>TABLERO DE COORDINADOR DE ESTUDIANTE</small>
+        <small>TABLERO DE ESTUDIANTE</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="inicio"><i class="fa fa-dashboard"></i> INICIO</a></li>
@@ -18,7 +18,7 @@
       <div class="box">
 
           <div class="box-header with-border">
-              <button class="btn btn-info" data-toggle="modal" data-target="#modalAgregarFacu">
+              <button class="btn btn-info" data-toggle="modal" data-target="#modalAgregarEstudiante">
                 Agregar Integrantes
               </button>
           </div>
@@ -63,7 +63,7 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="modalAgregarEstudi"  role="dialog" >
+<div class="modal fade" id="modalAgregarEstudiante"  role="dialog" >
   <div class="modal-dialog">
     <div class="modal-content">
      <form  role="form method="post" enctype="multipart/form-data">
