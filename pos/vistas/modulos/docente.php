@@ -86,7 +86,7 @@
         <!-------------------------------- NOMBRE DE USUARIO --------------------------------->
               <div class="form-group">
                 <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <div class="input-group-addon"><i class="fa fa-user-tie"></i></div>
                       <input type="text" class="form-control input-lg" name="nombreusuario" placeholder="Nombre del integrante" required>
                 </div>
               </div>
@@ -94,7 +94,7 @@
               <!-------------------------------- APELLIDO DEL USUARIO --------------------------------->
               <div class="form-group">
                 <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <div class="input-group-addon"><i class="fa fa-user-tie"></i></div>
                       <input type="text" class="form-control input-lg" name="apellidousuario" placeholder="Apellido del integrante" required>
                 </div>
               </div>
